@@ -1,0 +1,15 @@
+datasets==2.19.0
+joblib==1.5.1
+numpy==2.4.2
+pandas==2.0.3
+peft==0.17.1
+scikit_learn==1.8.0
+scipy==1.17.1
+torch==2.8.0+cu128
+tqdm==4.67.1
+transformers==4.57.3
+config==0.5.1
+matplotlib==3.10.8
+seaborn==0.13.2
+wordcloud==1.9.5
+gensim==4.3.3
