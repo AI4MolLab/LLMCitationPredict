@@ -12,7 +12,7 @@ The entire pipeline is divided into two main phases:
 - `find_optimal_k.py`: Performs a grid search by calculating the cvc_v coherence score to find the optimal number of topics (kk) and generates a coherence score trend plot.
 - `train_topic_model-fit.py`: Trains the final LDA model using the optimal kk value. This script processes academic texts, applies Bigram phrase extraction, calculates topic ranks and diversity bins, and saves all artifacts (model, vectorizer, dataset split indices).
 
-### Phase 2: Llama 3 Fine-Tuning
+### Phase 2: LLM Fine-Tuning
 
 - `config.py`: Contains all configuration parameters, including file paths, LoRA hyperparameters, and various Prompt templates (Base, Full, Rank-only, Diversity-only).
 - `dataloader.py`: Loads raw data and pre-trained LDA artifacts. Generates topic features for the Prompts and applies a `log1p` transformation to the target citation variable.
