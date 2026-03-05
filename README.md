@@ -45,7 +45,8 @@ python main.py
 ```
 
 ## Author
-
-- Zhichao Pan
 - Hengzhi Huang
 - Ziyang Wang
+- Yiheng Zhao
+- Zhichao Pan(panzhichao@guet.edu.cn)
+
